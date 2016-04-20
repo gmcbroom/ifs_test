@@ -1,0 +1,212 @@
+/*******************************/
+
+/*         Navigation          */
+
+/*******************************/
+
+.navbar-inverse {
+  background-color: #333333;
+  min-height: 50px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #0D1F35;
+}
+
+.navbar-right {
+  color: #FFF;
+}
+
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+/*******************************/
+
+/*       Body Background       */
+
+/*******************************/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.42857;
+  color: #333;
+}
+
+.setBg {
+  top: 5%;
+  right: 50%;
+  outline: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: #F2F2F2;
+  /* background-image: url("/images/sky.jpg"); */
+}
+
+/*******************************/
+
+/*           Footer            */
+
+/*******************************/
+
+.footer1 {
+  background: #515151;
+  padding: 15 0 0 0;
+  font-size: 12px;
+  color: #FFF;
+  min-height: 40px;
+}
+
+.footer1 a {
+  color: #FFF;
+}
+
+.footer1 p {
+  margin: 0;
+}
+
+.footer2 {
+  background: #333;
+  padding: 0;
+  font-size: 12px;
+  color: #FFF;
+  min-height: 5px;
+}
+
+.footer2 a {
+  color: #AAA;
+}
+
+.footer2 p {
+  margin: 0;
+}
+
+/*******************************/
+
+/*       Page Formatting       */
+
+/*******************************/
+
+.page-title {
+  color: #FFF;
+  font-size: 18px;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EF1821;
+  text-decoration: none;
+}
+
+.input-lg {
+  height: auto;
+  padding: 5px 16px;
+  font-size: 1.2em;
+  line-height: auto;
+  border-radius: 6px;
+}
+
+/*******************************/
+
+/*          Forms              */
+
+/*******************************/
+
+.form-group {
+  margin-bottom: auto;
+}
+
+.error_pane {
+  min-height: 40px;
+  border: 0;
+}
+
+/*******************************/
+
+/*          Buttons            */
+
+/*******************************/
+
+.btn-primary {
+  color: #FFF;
+  background-image: linear-gradient(to bottom, #333333 0%, #808080 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="$btn_colour_top", endColorstr="$btn_colour_bottom", GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border: 0 none;
+}
+
+.btn-primary:active {
+  background-color: #FF8C00;
+}
+
+.btn-action:hover,
+.btn-action:focus {
+  color: #FFF;
+  background: #333333;
+}
+
+.btn-action:active {
+  background-color: #FF8C00;
+}
+
+/*******************************/
+
+/*     Panel Header Colour     */
+
+/*******************************/
+
+.panel-default > .panel-heading {
+  background-color: #333333;
+  border-color: #808080;
+  color: #FFF;
+}
+
+/*******************************/
+
+/*     Panel Body Colour       */
+
+/*******************************/
+
+.panel-body {
+  background-color: #F3F3EE;
+  border-radius: 12px;
+  box-shadow: 0px 8px 12px #999;
+}
+
+/*******************************/
+
+/*  Login Page - Modal Dialog  */
+
+/*******************************/
+
+.modal-dialog {
+  width: 450px;
+  margin: 30px auto;
+}
+
+.modal-header {
+  border: 0px;
+}
+
+.modal-body {
+  border: 0px;
+}
+
+.modal-footer {
+  border: 0px;
+}

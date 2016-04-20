@@ -1,0 +1,173 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$font-stack: Helvetica,Arial,sans-serif;
+$nav_bg_colour: #333333;
+$nav_menu_colour: #0D1F35;
+$text_colour_rev: #FFF;
+$text_colour: #333;
+$link_colour: #999;
+$link_hover_colour: #EF1821;
+$body_bg_colour: #F2F2F2;
+$footer1_bg: #515151;
+$footer1_text_colour: #FFF;
+$footer2_bg: #333;
+$footer2_text_colour: #AAA;
+$btn_colour: #FFEFD7;
+$btn_colour_top: #333333;
+$btn_colour_bottom: #808080 ;
+$btn_active: #FF8C00;
+$panel_border: #808080;
+$panel_bg: #F3F3EE;
+
+/*******************************/
+/*         Navigation          */
+/*******************************/
+.navbar-inverse {
+    background-color: $nav_bg_colour;
+    min-height: 50px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: $nav_menu_colour;
+}
+
+.navbar-right { color: $text_colour_rev; }
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+/*******************************/
+/*       Body Background       */
+/*******************************/
+body {
+    font-family: $font-stack;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: $text_colour;
+}
+.setBg {
+    top:5%;
+    right:50%;
+    outline: none;
+    padding-left: 0px; padding-right: 0px;
+    background: $body_bg_colour;
+    /* background-image: url("/images/sky.jpg"); */
+
+}
+
+/*******************************/
+/*           Footer            */
+/*******************************/
+.footer1 { background: $footer1_bg; padding: 15 0 0 0; font-size: 12px; color: $text_colour_rev; min-height:40px;}
+.footer1 a { color: $footer1_text_colour; }
+.footer1 p { margin: 0; }
+
+.footer2 { background: $footer2_bg; padding: 0; font-size: 12px; color: $text_colour_rev; min-height:5px; }
+.footer2 a { color: $footer2_text_colour; }
+.footer2 p { margin: 0; }
+
+
+
+/*******************************/
+/*       Page Formatting       */
+/*******************************/
+.page-title {
+    color: $text_colour_rev;
+    font-size: 18px;
+}
+
+a {
+    color: $link_colour;
+    text-decoration: none;
+}
+a:hover {
+    color: $link_hover_colour;
+    text-decoration: none;
+}
+
+.input-lg {
+    height: auto;
+    padding: 5px 16px;
+    font-size: 1.2em;
+    line-height: auto;
+    border-radius: 6px;
+}
+
+/*******************************/
+/*          Forms              */
+/*******************************/
+.form-group {
+    margin-bottom: auto;
+}
+
+.error_pane {
+    min-height: 40px;
+    border: 0;
+}
+
+/*******************************/
+/*          Buttons            */
+/*******************************/
+.btn-primary {
+    color:$text_colour_rev;
+    background-image: -webkit-linear-gradient(top, $btn_colour_top 0%, $btn_colour_bottom 100%);
+    background-image: linear-gradient(to bottom, $btn_colour_top 0%, $btn_colour_bottom 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="$btn_colour_top", endColorstr="$btn_colour_bottom", GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border:0 none;
+}
+.btn-primary:active { background-color: $btn_active; }
+.btn-action:hover,
+.btn-action:focus { color: $text_colour_rev; background: $btn_colour_top; }
+.btn-action:active { background-color: $btn_active; }
+
+
+/*******************************/
+/*     Panel Header Colour     */
+/*******************************/
+.panel-default > .panel-heading {
+    background-color: $nav_bg_colour;
+    border-color: $panel_border;
+    color: $text_colour_rev;
+}
+
+/*******************************/
+/*     Panel Body Colour       */
+/*******************************/
+.panel-body {
+    background-color: $panel_bg ;
+    border-radius: 12px;
+    box-shadow: 0px 8px 12px #999;
+}
+
+/*******************************/
+/*  Login Page - Modal Dialog  */
+/*******************************/
+.modal-dialog {
+    width: 450px;
+    margin: 30px auto;
+}
+.modal-header {
+    border: 0px;
+}
+.modal-body {
+    border: 0px;
+}
+.modal-footer {
+    border: 0px;
+}
+
+@media (max-width: 767px) {
+
+}
